@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('/JPS/components/head.html')
+    fetch('../../components/head.html')
         .then(response => response.text())
         .then(data => {
             document.head.innerHTML = data;
