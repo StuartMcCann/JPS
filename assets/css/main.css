@@ -959,6 +959,7 @@ section,
   color: var(--accent-color);
 }
 
+
 .about .read-more {
   background: var(--accent-color);
   color: var(--contrast-color);
@@ -1456,6 +1457,19 @@ section,
 
 .team .team-member .social a+a {
   margin-left: 8px;
+}
+
+.team ul i {
+    font-size: 20px;
+    padding-right: 4px;
+    color: var(--accent-color) !important;
+}
+
+/*--------------------------------------------------------------
+# Icons Section
+--------------------------------------------------------------*/
+.team .bi-bucket, .bi-bug , .bi-grid-3x3-gap {
+    color: var(--accent-color);
 }
 
 /*--------------------------------------------------------------
@@ -2494,3 +2508,9 @@ section,
   font-size: 14px;
 }
 
+#aboutCarousel .carousel-item img {
+    width: 100%;
+    height: 400px;  /* Set this to match your jpsstall.png height */
+    object-fit: contain;  /* This preserves aspect ratio */
+    background-color: #f8f9fa;  /* Light background for empty spaces */
+}
