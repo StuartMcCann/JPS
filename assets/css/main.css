@@ -1012,12 +1012,6 @@ section,
   filter: grayscale(100);
 }
 
-.clients .client-logo-supplier {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
 
 
 
@@ -1026,7 +1020,17 @@ section,
   opacity: 1;
 }
 
+
+.clients .client-logo-supplier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
 .clients .client-logo-supplier img {
+  width: 100%;
+  height: auto;
   padding: 20px 40px;
   max-width: 90%;
   transition: 0.3s;
