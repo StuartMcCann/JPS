@@ -1028,12 +1028,12 @@ section,
   overflow: hidden;
 }
 
-.clients .client-logo-supplier img {
+.client-logo-supplier img {
   width: 100%;
-  height: auto;
+  height: 80%;
   padding: 20px 40px;
-  max-width: 90%;
   transition: 0.3s;
+  border-radius: 8px;
   opacity: 1;
   filter: none;
 }
