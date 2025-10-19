@@ -1012,9 +1012,26 @@ section,
   filter: grayscale(100);
 }
 
+.clients .client-logo-supplier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+
 .clients .client-logo img:hover {
   filter: none;
   opacity: 1;
+}
+
+.clients .client-logo-supplier img {
+  padding: 20px 40px;
+  max-width: 90%;
+  transition: 0.3s;
+  opacity: 1;
+  filter: none;
 }
 
 @media (max-width: 640px) {
