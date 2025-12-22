@@ -939,6 +939,21 @@ section,
   }
 }
 
+.carousel-container.text-center .hero-lead {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Prevent wrapping on medium and larger viewports */
+@media (min-width: 768px) {
+  .carousel-container.text-center .hero-lead {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* optional: avoids overflow */
+  }
+}
+
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
